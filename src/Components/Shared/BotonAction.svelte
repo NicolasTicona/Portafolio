@@ -1,7 +1,7 @@
 <style>
 
     button{
-        background-color: var(--secondary);
+        background-color: var(--primary);
         min-width: 200px;
         text-align: center;
         color: #fff;
@@ -17,9 +17,9 @@
     }
 
     .up{
-        border: 3px solid var(--secondary);
+        border: 3px solid var(--primary);
         background: #fff;
-        color: var(--secondary)
+        color: var(--primary)
     }
 
 </style>

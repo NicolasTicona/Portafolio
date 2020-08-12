@@ -4,7 +4,7 @@
         width: 100%;
         position: relative;
         display: flex;
-        background-image: url('/assets/header-bg2.svg');
+        background-image: url('/assets/header-bg.svg');
         background-size: cover;
     }
     .header-info{
@@ -45,6 +45,7 @@
         flex-direction: row;
         justify-content: flex-end;
         align-items: center;
+        z-index: 1;
     }
 
     .networks span{
@@ -70,7 +71,7 @@
             <div class="content">
                 <div class="header-title">
                     <h1 >Hola, Soy Nicolas</h1>
-                    <h3 >¿Qué tal si hacemos algo juntos?</h3>
+                    <h3 >Hagamos tu proyecto realidad!</h3>
                 </div>
                 <div class="header-message">
                     

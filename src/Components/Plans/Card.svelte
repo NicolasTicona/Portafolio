@@ -2,7 +2,6 @@
 
 .card-info{
     width: 100%;
-    border: 5px solid var(--primary);
     border-radius: 20px;
 
     min-height: 50vh;
@@ -10,6 +9,11 @@
     flex-direction: column;
     background-color: rgba(255, 255, 255, .8);
     justify-content: space-between;
+    transition: all .3s ease;
+}
+
+.card-info:hover{
+    transform: scale(1.1);
 }
 
 .card-title{
@@ -45,7 +49,7 @@ ul{
 </script>
 
 
-<div class="card-info wrapper">
+<div class="card-info wrapper shadow">
 
     <div class="top-content">
         <div class="card-title">

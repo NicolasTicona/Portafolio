@@ -1,0 +1,103 @@
+<style>
+    main{
+        padding: 100px 0 200px 0;
+        text-align: center;
+        margin-top: 0;
+        background-image: url('/assets/body-bg.svg');
+        background-size: cover;
+    }
+    
+    .main-top-info{
+        text-align: center;
+    }
+
+    span{
+        font-size: 15px;
+    }
+
+    .main-cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .main-cards .card{
+        width: 25%;
+    }
+
+    .main-cards .card:nth-child(2){
+        margin-top: 50px;
+    }
+
+
+</style>
+
+<script>
+
+    import Card from './Card.svelte';
+    import About from '../About/About.svelte';
+
+    let basicPlan = {
+        title: 'Básico',
+        cost : 229,
+        description: [
+            'Portafolio de trabajo', 'Páginas web informativas',
+            'Negocios pequeños', 'Presencia online',
+            'Tienda online'
+        ],
+        boton: 'Lo quiero!'
+    }
+
+    let proPlan = {
+        title: 'Profesional',
+        cost: 529,
+        description: [
+            'Landing Page', 'Construcción de Marca',
+            'Negocios medianos - grandes',
+            'Campañas'
+        ],
+        boton: 'Empecemos!'
+    }
+
+    let appPlan = {
+        title: 'Plataforma Web',
+        cost: 999,
+        description: [
+            'Aplicación / Plataforma Web'
+        ],
+        boton: 'Hablemos!'
+    }
+
+</script>
+
+<main class="wrapper">
+
+    <div class="main-top-info">
+        <h2>Planes</h2>
+        <h4>Adquiere el mejor plan para tu sitio web</h4>
+        <span>*No incluye costos de Hosting & Dominio</span>
+        <br>
+        <span>*No incluye IGV</span>
+    </div>
+
+    <div class="main-cards">
+        <div class="card">
+            <Card 
+                {...basicPlan}
+            />
+        </div>
+
+        <div class="card">
+            <Card 
+                {...proPlan}
+            />
+        </div>
+
+        <div class="card">
+            <Card 
+                {...appPlan}
+            />
+        </div>
+    </div>
+</main>

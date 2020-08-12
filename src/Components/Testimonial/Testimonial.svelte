@@ -1,0 +1,33 @@
+<style>
+
+    .testimonial{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .testimonial-quote{
+        width: 40%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+</style>
+
+<script>
+    import Quote from './Quote.svelte';
+
+</script>
+
+<div class="testimonial">
+    <div class="testimonial-quote">
+        <Quote />
+    </div>
+    <div class="testimonial-quote">
+        <Quote />
+    </div>
+    <div class="testimonial-quote">
+        <Quote />
+    </div>
+</div>

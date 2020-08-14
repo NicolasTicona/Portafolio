@@ -30,6 +30,25 @@
         margin-top: 50px;
     }
 
+    @media screen and (max-width:768px){
+
+        .plans-card{
+            width: 90%;
+            margin: 20px 0;
+        }
+
+        .plans-card:nth-child(2){
+            margin-top: 20px;
+        }
+
+        .plans-info-top{
+            padding: 0 20px;
+        }
+
+        span{
+            font-size: 11px;
+        }
+    }
 
 </style>
 

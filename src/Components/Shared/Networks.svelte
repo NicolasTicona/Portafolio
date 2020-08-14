@@ -8,11 +8,13 @@
 }
 
 .network{
+    max-width: 22%;
     width: 30px;
     height: 30px;
     background: #ccc;
     border-radius: 50%;
 }
+
 
 </style>
 

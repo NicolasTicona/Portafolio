@@ -1,4 +1,5 @@
 <style>
+
     header{
         height: 100vh;
         width: 100%;
@@ -45,6 +46,28 @@
         color: #fff;
     }
 
+    .header-button{
+        margin: 10px 0;
+        display: inline-block;
+    }
+    
+    @media screen and (max-width:768px){
+        header{
+            width: 100vw;
+            background-color: var(--secondary);
+            background-image: none;
+        }
+
+        .header-content{
+            width: 100%;
+            text-align: center;
+        }
+
+        .header-networks{
+            padding: 20px;
+        }
+    }
+
 
 </style>
 
@@ -64,14 +87,18 @@
                 </div>
     
                 <div class="header-action-buttons">
-                    <BotonAction 
-                        up={false} 
-                        scroll={'#scroll-projects'}
-                        text={'Proyectos'}/>
-                    <BotonAction 
-                        up={true} 
-                        scroll={'#scroll-plans'}
-                        text={'Ver planes'}/>
+                    <div class="header-button">
+                        <BotonAction 
+                            up={false} 
+                            scroll={'#scroll-projects'}
+                            text={'Proyectos'}/>
+                    </div>
+                    <div class="header-button">
+                        <BotonAction 
+                            up={true} 
+                            scroll={'#scroll-plans'}
+                            text={'Ver planes'}/>
+                    </div>
                 </div>
             </div>
 

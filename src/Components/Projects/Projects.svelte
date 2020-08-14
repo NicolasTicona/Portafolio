@@ -33,6 +33,14 @@
         font-size: 13px;
     }
 
+    @media screen and (max-width:768px){
+        .projects-card a{
+            font-size: 16px;
+            padding: 15px 35px;
+            margin: 8px;
+        }
+    }
+
 </style>
 
 <script>

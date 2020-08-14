@@ -8,6 +8,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        flex-wrap: wrap;
         padding: 100px 0;
     }
 
@@ -20,6 +21,11 @@
         text-align: center;
     }
 
+    @media screen and (max-width:768px){
+        .footer-section{
+            width: 100%;
+        }
+    }
 
 
 </style>
@@ -32,11 +38,11 @@ import Projects from '../Projects/Projects.svelte';
 
 <div class="footer">
     <div class="footer-container wrapper">
-        <div class="footer-section-left">
+        <div class="footer-section footer-section-left">
             <Testimonial />
         </div>
 
-        <div class="footer-section-right">
+        <div class="footer-section footer-section-right">
             <Projects />
         </div>
     </div>

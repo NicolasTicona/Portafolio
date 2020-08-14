@@ -39,7 +39,7 @@
 
 :global(:root){
 	--primary: #323232;
-	--secondary: #191919;
+	--secondary: #f3f3f3;
 }
 
 :global(.center-flex){
@@ -62,6 +62,40 @@
 	box-shadow: 8px 8px 4px 0px rgba(0,0,0,0.25);
 }
 
+.container{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+}
+
+@media screen and (max-width:768px){
+		
+	:global(h1){
+		font-size: 50px;
+	}
+	:global(h2){
+		font-size: 35px;
+	}
+	:global(h3){
+		font-size: 20px;
+	}
+
+	:global(h4){
+		font-size: 16px;
+		font-weight: normal;
+	}
+
+	:global(p){
+		font-size: 14px;
+	}
+
+	:global(span){
+		font-size: 12px;
+	}
+}
+
+
 </style>
 
 <script>
@@ -75,16 +109,17 @@
 	import Modal from './Components/Modal/Modal.svelte';
 
 </script>
-
 {#if $showModal}
 	<div>
 		<Modal />
 	</div>
 {/if}
 
-<Header />
+<div class="container">
+	<Header />
 
-<Plans />
+	<Plans />
 
-<Footer />
+	<Footer />
+</div>
 

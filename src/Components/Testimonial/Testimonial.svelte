@@ -12,6 +12,12 @@
         margin: auto;
         margin-bottom: 20px;
     }
+    
+    @media screen and (max-width:768px){
+        .testimonial-quote{
+            width: 70%;
+        }
+    }
 
 </style>
 

@@ -1,6 +1,8 @@
 <style>
 
-    button{
+    a{
+        text-decoration: none;
+        display: inline-block;
         background-color: var(--primary);
         min-width: 200px;
         text-align: center;
@@ -11,24 +13,21 @@
         padding: 15px 10px;
         cursor: pointer;
     }
-
-    button:active{
-        background-color: var(--primary);
-    }
-
     .up{
         border: 3px solid var(--primary);
         background: #fff;
         color: var(--primary)
     }
 
+    
 </style>
 
 <script>
     export let text;
     export let up;
+    export let scroll;
 </script>
 
-<button on:click class="{up === true ? 'up shadow' : 'shadow'}">
+<a on:click href={scroll} class="{up === true ? 'up shadow' : 'shadow'}">
     {text}
-</button>
+</a>

@@ -1,5 +1,5 @@
 <style>
-    main{
+    .plans{
         padding: 100px 0 200px 0;
         text-align: center;
         margin-top: 0;
@@ -71,10 +71,10 @@
 
 </script>
 
-<main class="wrapper">
+<div class="plans wrapper" id="scroll-plans">
 
     <div class="main-top-info">
-        <h2>Planes</h2>
+        <h2 id="scroll-planes">Planes</h2>
         <h4>Adquiere el mejor plan para tu sitio web</h4>
         <span>*No incluye costos de Hosting & Dominio</span>
         <br>
@@ -100,4 +100,4 @@
             />
         </div>
     </div>
-</main>
+</div>

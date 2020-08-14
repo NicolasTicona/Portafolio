@@ -38,13 +38,20 @@ ul{
 </style>
 
 <script>
-
+    import {showModal} from '../../Store/store.js';
     import ButonAction from '../Shared/BotonAction.svelte';
 
     export let title;
     export let cost;
     export let boton;
     export let description;
+
+    function handleMessage(){
+        console.log('que fu')
+        showModal.update(n => {
+            return !$showModal;
+        })
+    }
 
 </script>
 
@@ -72,7 +79,7 @@ ul{
     </div>
 
     <div class="button-action">
-        <ButonAction text={boton}/>     
+        <ButonAction text={boton} on:click={handleMessage}/>     
     </div>
 
 </div>

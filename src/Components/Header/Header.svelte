@@ -62,7 +62,7 @@
     import About from '../About/About.svelte';
     import BotonAction from '../Shared/BotonAction.svelte';
     import Networks from '../Shared/Networks.svelte';
-    
+
 </script>
 
 <header>
@@ -78,8 +78,14 @@
                 </div>
     
                 <div class="header-action-buttons">
-                    <BotonAction up={false} text={'Proyectos'} />
-                    <BotonAction up={true} text={'Ver planes'} />
+                    <BotonAction 
+                        up={false} 
+                        scroll={'#scroll-projects'}
+                        text={'Proyectos'}/>
+                    <BotonAction 
+                        up={true} 
+                        scroll={'#scroll-plans'}
+                        text={'Ver planes'}/>
                 </div>
             </div>
 

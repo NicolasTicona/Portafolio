@@ -42,7 +42,7 @@
     
 </script>
 
-<div class="projects">
+<div class="projects" id="scroll-projects">
     <div class="projects-container">
         <div class="projects-card">
             <a class="shadow" href=".">Smiledu</a>

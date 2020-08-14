@@ -66,11 +66,20 @@
 
 <script>
 
+	import {showModal} from './Store/store.js';
+
 	import Header from './Components/Header/Header.svelte';
 	import Plans from './Components/Plans/Plans.svelte';
 	import Footer from './Components/Footer/Footer.svelte';	
+	import Modal from './Components/Modal/Modal.svelte';
 
 </script>
+
+{#if $showModal}
+	<div>
+		<Modal />
+	</div>
+{/if}
 
 <Header />
 

@@ -2,15 +2,12 @@
 
     .projects{
         text-align: center;
-    }
-
-    .projects-container{
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    
+
     .projects-card a{
         text-decoration: none;
         color: #fff;
@@ -43,23 +40,21 @@
 </script>
 
 <div class="projects" id="scroll-projects">
-    <div class="projects-container">
-        <div class="projects-card">
-            <a class="shadow" href=".">Smiledu</a>
-        </div>
-        <div class="projects-card">
-            <a class="shadow" href=".">Arkei</a>
-        </div>
-        <div class="projects-card">
-            <a class="shadow" href=".">WriteRealTime</a>
-        </div>
-        <div class="projects-card">
-            <a class="shadow" href=".">Pokemon App</a>
-        </div>
-        <div class="projects-card">
-            <a class="shadow" href=".">Spotify App</a>
-        </div>
-
-        <a class="projects-link-github" href=".">Más proyectos en <span>Github</span></a>
+    <div class="projects-card">
+        <a class="shadow" href=".">Smiledu</a>
     </div>
+    <div class="projects-card">
+        <a class="shadow" href=".">Arkei</a>
+    </div>
+    <div class="projects-card">
+        <a class="shadow" href=".">WriteRealTime</a>
+    </div>
+    <div class="projects-card">
+        <a class="shadow" href=".">Pokemon App</a>
+    </div>
+    <div class="projects-card">
+        <a class="shadow" href=".">Spotify App</a>
+    </div>
+
+    <a class="projects-link-github" href=".">Más proyectos en <span>Github</span></a>
 </div>

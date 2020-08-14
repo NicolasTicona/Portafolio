@@ -1,6 +1,6 @@
 <style>
 
-.card-info{
+.card{
     width: 100%;
     border-radius: 20px;
 
@@ -12,7 +12,7 @@
     transition: all .3s ease;
 }
 
-.card-info:hover{
+.card:hover{
     transform: scale(1.1);
 }
 
@@ -20,20 +20,18 @@
     margin-bottom: 10px;
 }
 
-.cost h3{
+.card-cost h3{
     display: inline-block;
 }
 
+.card-list{
+    margin-left: 20px;
+    text-align: left;
+}
 hr{
     border: 3px solid var(--primary);
     margin: 10px auto 20px auto;
 }
-
-ul{
-    margin-left: 20px;
-    text-align: left;
-}
-
 
 </style>
 
@@ -47,7 +45,6 @@ ul{
     export let description;
 
     function handleMessage(){
-        console.log('que fu')
         showModal.update(n => {
             return !$showModal;
         })
@@ -56,14 +53,14 @@ ul{
 </script>
 
 
-<div class="card-info wrapper shadow">
+<div class="card wrapper shadow">
 
-    <div class="top-content">
+    <div class="card-content-top">
         <div class="card-title">
             <h3>{title}</h3>
         </div>
     
-        <div class="cost">
+        <div class="card-cost">
             <span>desde</span>
             <h3>{cost} Soles</h3>
                 
@@ -71,14 +68,14 @@ ul{
         </div>
     
     
-        <ul>
+        <ul class="card-list">
             {#each description as desc}
                 <li>{desc}</li>
             {/each}
         </ul>
     </div>
 
-    <div class="button-action">
+    <div class="card-button-action">
         <ButonAction text={boton} on:click={handleMessage}/>     
     </div>
 

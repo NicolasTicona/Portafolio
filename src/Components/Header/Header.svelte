@@ -13,7 +13,7 @@
         width: 100%;
     }
 
-    .center-flex-row{
+    .header-content-center{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -24,12 +24,7 @@
         margin-bottom: 10vh;
     }
 
-    .header-message{
-        margin-bottom: 8vh;
-        max-width: 80%;
-    }
-
-    .networks{
+    .header-networks{
         position: fixed;
         background-color: var(--primary);
         width: 100%;
@@ -44,7 +39,7 @@
         z-index: 1;
     }
 
-    .networks span{
+    .header-networks span{
         display: inline-block;
         margin-right: 20px;
         color: #fff;
@@ -59,16 +54,13 @@
 
 </script>
 
-<header>
+<header class="header">
     <div class="header-info shape center-flex">
-        <div class="wrapper center-flex-row">
-            <div class="content">
+        <div class="wrapper header-content-center">
+            <div class="header-content">
                 <div class="header-title">
                     <h1 >Hola, Soy Nicolas</h1>
                     <h3 >Hagamos tu proyecto realidad!</h3>
-                </div>
-                <div class="header-message">
-                    
                 </div>
     
                 <div class="header-action-buttons">
@@ -87,11 +79,9 @@
 
     </div>
         
-    <div class="networks">
+    <div class="header-networks">
         <span>¿Necesitas una página web? Escríbeme</span>
         <Networks/>
     </div>
-
-    
 
 </header>

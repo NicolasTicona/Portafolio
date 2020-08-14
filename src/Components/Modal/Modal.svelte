@@ -84,12 +84,10 @@
     function handleSend(){
 
         if(phone.trim().length != 9){
-            console.log('error');
             showPhoneError = true;
             return;
         }
 
-        console.log('No error')
         showPhoneError = false;
         if(name.trim().length > 0 && phone.trim().length > 0){
             contact_info = `https://api.whatsapp.com/send?phone=51902376118&text=Hola!%20Soy%20${name}%20me%20gustar%C3%ADa%20hablar%20contigo%`

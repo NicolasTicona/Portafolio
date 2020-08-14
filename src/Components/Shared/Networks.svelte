@@ -1,6 +1,6 @@
 <style>
 
-.networks-container{
+.networks{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -20,7 +20,7 @@
 
 </script>
 
-<div class="networks-container">
+<div class="networks">
     <span class="network"></span>
     <span class="network"></span>
     <span class="network"></span>

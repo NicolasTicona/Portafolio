@@ -7,7 +7,7 @@
         background-size: cover;
     }
     
-    .main-top-info{
+    .plans-info-top{
         text-align: center;
     }
 
@@ -15,18 +15,18 @@
         font-size: 15px;
     }
 
-    .main-cards{
+    .plans-cards{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
     }
 
-    .main-cards .card{
+    .plans-card{
         width: 25%;
     }
 
-    .main-cards .card:nth-child(2){
+    .plans-card:nth-child(2){
         margin-top: 50px;
     }
 
@@ -46,7 +46,7 @@
             'Tienda online'
         ],
         boton: 'Lo quiero!'
-    }
+    };
 
     let proPlan = {
         title: 'Profesional',
@@ -57,7 +57,7 @@
             'Campañas'
         ],
         boton: 'Empecemos!'
-    }
+    };
 
     let appPlan = {
         title: 'Plataforma Web',
@@ -66,13 +66,13 @@
             'Aplicación / Plataforma Web'
         ],
         boton: 'Hablemos!'
-    }
+    };
 
 </script>
 
 <div class="plans wrapper" id="scroll-plans">
 
-    <div class="main-top-info">
+    <div class="plans-info-top">
         <h2 id="scroll-planes">Planes</h2>
         <h4>Adquiere el mejor plan para tu sitio web</h4>
         <span>*No incluye costos de Hosting & Dominio</span>
@@ -80,20 +80,20 @@
         <span>*No incluye IGV</span>
     </div>
 
-    <div class="main-cards">
-        <div class="card">
+    <div class="plans-cards">
+        <div class="plans-card">
             <Card 
                 {...basicPlan}
             />
         </div>
 
-        <div class="card">
+        <div class="plans-card">
             <Card 
                 {...proPlan}
             />
         </div>
 
-        <div class="card">
+        <div class="plans-card">
             <Card 
                 {...appPlan}
             />

@@ -54,6 +54,16 @@
         margin-top: 8px;
     }
 
+    @media screen and (max-width:768px){
+        .modal-content{
+            width: 70%;
+        }
+
+        .modal-info{
+            font-size: 10px !important;
+        }
+    }
+
 </style>
 
 <script>

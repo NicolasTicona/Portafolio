@@ -36,7 +36,6 @@
 <script>
 
     import Card from './Card.svelte';
-    import About from '../About/About.svelte';
 
     let basicPlan = {
         title: 'Básico',

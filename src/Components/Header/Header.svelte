@@ -20,10 +20,6 @@
         align-items: center;
     }
 
-    .header-about{
-        width: 30%;
-    }
-
     .header-title{
         margin-bottom: 10vh;
     }
@@ -58,8 +54,6 @@
 </style>
 
 <script>
-
-    import About from '../About/About.svelte';
     import BotonAction from '../Shared/BotonAction.svelte';
     import Networks from '../Shared/Networks.svelte';
 
@@ -89,8 +83,6 @@
                 </div>
             </div>
 
-            <div class="header-about wrapper center-flex">
-            </div>
         </div>
 
     </div>

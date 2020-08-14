@@ -33,6 +33,12 @@ hr{
     margin: 10px auto 20px auto;
 }
 
+@media screen and (max-width:768px){
+    h3{
+        font-size: 30px !important;
+    }
+}
+
 </style>
 
 <script>

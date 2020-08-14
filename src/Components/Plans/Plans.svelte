@@ -44,10 +44,6 @@
         .plans-info-top{
             padding: 0 20px;
         }
-
-        span{
-            font-size: 11px;
-        }
     }
 
 </style>

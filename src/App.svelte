@@ -72,26 +72,26 @@
 @media screen and (max-width:768px){
 		
 	:global(h1){
-		font-size: 50px;
+		font-size: 50px !important;
 	}
 	:global(h2){
-		font-size: 35px;
+		font-size: 35px !important;
 	}
 	:global(h3){
-		font-size: 20px;
+		font-size: 20px !important;
 	}
 
 	:global(h4){
-		font-size: 16px;
-		font-weight: normal;
+		font-size: 16px !important;
+		font-weight: normal !important;
 	}
 
 	:global(p){
-		font-size: 14px;
+		font-size: 14px !important;
 	}
 
 	:global(span){
-		font-size: 12px;
+		font-size: 12px !important;
 	}
 }
 

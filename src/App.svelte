@@ -66,6 +66,7 @@
 
 <script>
 
+
 	import {showModal} from './Store/store.js';
 
 	import Header from './Components/Header/Header.svelte';

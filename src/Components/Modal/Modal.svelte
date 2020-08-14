@@ -60,6 +60,8 @@
 
     import {showModal} from '../../Store/store.js';
     import {onMount} from 'svelte'
+    import {fade} from 'svelte/transition';
+
 
     let countries = [];
     onMount(async () => {
@@ -104,7 +106,7 @@
 
 </script>
 
-<div class="modal">
+<div class="modal" transition:fade>
     <div class="modal-content wrapper">
         <div class="modal-close">
             <button on:click={handleClose}>X</button>

@@ -43,17 +43,21 @@
 
 <script>
     
+    export let name;
+    export let rol;
+    export let desc;
+    export let img;
+
 </script>
 
 <div class="quote">
     <div class="quote-image">
-        <span class="image"></span>
+        <img src={img} alt="Imágen" class="image">
     </div>
 
     <div class="quote-description">
-        <h5>Marco Flores</h5>
-        <span>COO de Smiledu</span>
-        <p class="shadow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quae, ullam explicabo
-        voluptatem facere nihil, id voluptatum magnam.</p>
+        <h5>{name}</h5>
+        <span>{rol}</span>
+        <p class="shadow">{desc}</p>
     </div>
 </div>

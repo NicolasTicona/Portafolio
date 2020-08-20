@@ -8,6 +8,10 @@
         justify-content: center;
     }
 
+    .projects-title{
+        color: #fff;
+    }
+
     .projects-card a{
         text-decoration: none;
         color: #fff;
@@ -48,20 +52,21 @@
 </script>
 
 <div class="projects" id="scroll-projects">
+    <span class="projects-title">Proyectos con los que me formé</span>
     <div class="projects-card">
-        <a class="shadow" href=".">Smiledu</a>
+        <a class="shadow" href="https://smiledu.com">Colaboré en Smiledu</a>
     </div>
     <div class="projects-card">
-        <a class="shadow" href=".">Arkei</a>
+        <a class="shadow" href="https://nicolasticona.github.io/Arkei">Arkei Chat</a>
     </div>
     <div class="projects-card">
-        <a class="shadow" href=".">WriteRealTime</a>
+        <a class="shadow" href="https://writerealtime.herokuapp.com/">WriteRealTime</a>
     </div>
     <div class="projects-card">
-        <a class="shadow" href=".">Pokemon App</a>
+        <a class="shadow" href=".">PokeApi App</a>
     </div>
     <div class="projects-card">
-        <a class="shadow" href=".">Spotify App</a>
+        <a class="shadow" href=".">Clon Spotify</a>
     </div>
 
     <a class="projects-link-github" href=".">Más proyectos en <span>Github</span></a>

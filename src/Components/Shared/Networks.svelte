@@ -4,15 +4,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 200px;
+    width: 150px;
 }
 
-.network{
-    max-width: 22%;
-    width: 30px;
-    height: 30px;
-    background: #ccc;
-    border-radius: 50%;
+.networks-link{
+    display: inline-block;
+}
+.networks-social-img{
+    width: 20px;
+    vertical-align: top;
 }
 
 
@@ -23,8 +23,14 @@
 </script>
 
 <div class="networks">
-    <span class="network"></span>
-    <span class="network"></span>
-    <span class="network"></span>
-    <span class="network"></span>
+    <a target="_blank" href="https://www.instagram.com/nicolas_tvop" class="networks-link">
+        <img src="/assets/networks/instagram.png" alt="Instagram" class="networks-social-img" />
+    </a>
+    <a target="_blank" href="https://www.linkedin.com/in/nicolas-ticona-valdivia-46b40a151">
+        <img src="/assets/networks/linkedin.png" alt="" class="networks-social-img" />
+    </a>
+
+    <a target="_blank" href="https://www.github.com/nicolasticona">
+        <img src="/assets/networks/github.png" alt="" class="networks-social-img" />
+    </a>
 </div>

@@ -107,7 +107,7 @@
     </div>
         
     <div class="header-networks">
-        <span>¿Necesitas una página web? Escríbeme</span>
+        <span>Escríbeme, escucharé tu idea!</span>
         <Networks/>
     </div>
 

@@ -23,6 +23,16 @@
         width: 40%;
     }
 
+    @media screen and (max-width:768px){
+        .about {text-align: center}
+        .about-description{justify-content: center}
+
+        .about-description p{
+            width: 90%;
+            margin-top: 10px;
+        }
+    }
+
 </style>
 
 <script>

@@ -38,6 +38,10 @@
     }
 
     @media screen and (max-width:768px){
+
+        .projects{
+            margin-top: 10px;
+        }
         .projects-card a{
             font-size: 16px;
             padding: 15px 35px;
@@ -63,11 +67,11 @@
         <a class="shadow" target="_blank" href="https://writerealtime.herokuapp.com/">WriteRealTime</a>
     </div>
     <div class="projects-card">
-        <a class="shadow" target="_blank" href=".">PokeApi App</a>
+        <a class="shadow" target="_blank" href="https://pokemon-crud.vercel.app/">PokeApi App</a>
     </div>
-    <div class="projects-card">
+    <!-- <div class="projects-card">
         <a class="shadow" target="_blank" href=".">Clon Spotify</a>
-    </div>
+    </div> -->
 
     <a class="projects-link-github" target="_blank" href="https://github.com/NicolasTicona?tab=repositories">Más proyectos en <span>Github</span></a>
 </div>

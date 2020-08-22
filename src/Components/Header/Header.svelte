@@ -64,7 +64,7 @@
         }
 
         .header-networks{
-            padding: 20px;
+            padding: 15px;
         }
     }
 

@@ -33,7 +33,7 @@
     @media screen and (max-width:768px){
 
         .plans-card{
-            width: 90%;
+            width: 80%;
             margin: 20px 0;
         }
 
@@ -56,9 +56,8 @@
         title: 'Básico',
         cost : 229,
         description: [
-            'Portafolio de trabajo', 'Páginas web informativas',
-            'Negocios pequeños', 'Presencia online',
-            'Tienda online'
+            'Portafolio Básico', 'Página web informativa',
+            'Presencia web para Mypes', 'Tienda online con Shopify'
         ],
         boton: 'Lo quiero!'
     };
@@ -67,18 +66,20 @@
         title: 'Profesional',
         cost: 529,
         description: [
-            'Landing Page', 'Construcción de Marca',
-            'Negocios medianos - grandes',
-            'Campañas'
+            'Portafolio Profesional', 
+            'Landing Page',
+            'Sitio web profesional',
+            'Construcción de Marca para presencia web'
         ],
         boton: 'Empecemos!'
     };
 
     let appPlan = {
         title: 'Plataforma Web',
-        cost: 999,
+        cost: 1299,
         description: [
-            'Aplicación / Plataforma Web'
+            'Aplicación / Plataforma Web',
+            'Blog Administrable'
         ],
         boton: 'Hablemos!'
     };

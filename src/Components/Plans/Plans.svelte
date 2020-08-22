@@ -88,7 +88,7 @@
 <div class="plans wrapper" id="scroll-plans">
 
     <div class="plans-info-top">
-        <h2 id="scroll-planes">Planes</h2>
+        <h2 id="scroll-planes">Trabajemos juntos</h2>
         <h4>Adquiere el mejor plan para tu sitio web</h4>
         <span>*No incluye costos de Hosting & Dominio</span>
         <br>

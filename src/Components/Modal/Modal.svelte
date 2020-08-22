@@ -81,7 +81,7 @@
 
 
     let name  = '';
-    let phone = '999999999';
+    let phone = '';
     let email = 'example@gmail.com';
     let anexo = '+51'
     let contact_info = '';
@@ -137,7 +137,7 @@
             {#if showPhoneError}
                 <span class="modal-message-error">Número de celular inválido</span>
             {/if}
-            <input bind:value={phone} type="text" placeholder="Tu número de celular">
+            <input bind:value={phone} type="text" placeholder="Tu número celular Ej. 90224551">
             <input bind:value={email} type="email" placeholder="Tu correo electrónico">
 
             {#if name && phone && !showPhoneError}

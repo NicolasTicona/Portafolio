@@ -54,20 +54,20 @@
 <div class="projects" id="scroll-projects">
     <span class="projects-title">Proyectos con los que me formé</span>
     <div class="projects-card">
-        <a class="shadow" href="https://smiledu.com">Colaboré en Smiledu</a>
+        <a class="shadow" target="_blank" href="https://smiledu.com">Colaboré en Smiledu</a>
     </div>
     <div class="projects-card">
-        <a class="shadow" href="https://nicolasticona.github.io/Arkei">Arkei Chat</a>
+        <a class="shadow" target="_blank" href="https://nicolasticona.github.io/Arkei">Arkei Chat</a>
     </div>
     <div class="projects-card">
-        <a class="shadow" href="https://writerealtime.herokuapp.com/">WriteRealTime</a>
+        <a class="shadow" target="_blank" href="https://writerealtime.herokuapp.com/">WriteRealTime</a>
     </div>
     <div class="projects-card">
-        <a class="shadow" href=".">PokeApi App</a>
+        <a class="shadow" target="_blank" href=".">PokeApi App</a>
     </div>
     <div class="projects-card">
-        <a class="shadow" href=".">Clon Spotify</a>
+        <a class="shadow" target="_blank" href=".">Clon Spotify</a>
     </div>
 
-    <a class="projects-link-github" href=".">Más proyectos en <span>Github</span></a>
+    <a class="projects-link-github" target="_blank" href="https://github.com/NicolasTicona?tab=repositories">Más proyectos en <span>Github</span></a>
 </div>

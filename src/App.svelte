@@ -104,6 +104,7 @@
 	import {showModal} from './Store/store.js';
 
 	import Header from './Components/Header/Header.svelte';
+	import About from './Components/About/About.svelte';
 	import Plans from './Components/Plans/Plans.svelte';
 	import Footer from './Components/Footer/Footer.svelte';	
 	import Modal from './Components/Modal/Modal.svelte';
@@ -117,6 +118,8 @@
 
 <div class="container">
 	<Header />
+
+	<About />
 
 	<Plans />
 

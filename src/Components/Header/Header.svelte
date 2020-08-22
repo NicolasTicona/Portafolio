@@ -28,15 +28,15 @@
     .header-networks{
         position: fixed;
         background-color: var(--primary);
-        width: 100%;
-        right: 0;
+        left: 0;
         bottom: 0;
-        padding: 30px;
-        margin-top: 100px;
+        padding: 20px 30px;
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
         align-items: center;
+        border-radius: 0px 20px 20px 0;
+        margin: 10px 10px 10px 0;
         z-index: 1;
     }
 
@@ -97,7 +97,7 @@
                         <BotonAction 
                             up={true} 
                             scroll={'#scroll-plans'}
-                            text={'Ver planes'}/>
+                            text={'Trabajemos juntos'}/>
                     </div>
                 </div>
             </div>

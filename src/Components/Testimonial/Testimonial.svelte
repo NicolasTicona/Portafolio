@@ -44,7 +44,7 @@ import Modal from '../Modal/Modal.svelte';
     let testimonio3 = {
         name : 'Gerardo Portilla',
         rol  : 'Director del Centro David',
-        desc : 'Responsable y muy profesional. Gran crecimiento y adaptación en el equipo.',
+        desc : 'Estoy conforme con el trabajo realizado. Nos ayudó mucho su rapidez para atender nuestras necesidades.',
         img  : '/assets/gerardo-portilla.jpg'
     }
 

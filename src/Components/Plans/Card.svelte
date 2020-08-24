@@ -50,7 +50,7 @@ hr{
 </style>
 
 <script>
-    import {showModal} from '../../Store/store.js';
+    import {showModal, planModal} from '../../Store/store.js';
     import ButonAction from '../Shared/BotonAction.svelte';
 
     export let title;
@@ -61,6 +61,10 @@ hr{
     function handleMessage(){
         showModal.update(n => {
             return !$showModal;
+        })
+
+        planModal.update(n => {
+            return title;
         })
     }
 

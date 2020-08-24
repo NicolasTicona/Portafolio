@@ -55,7 +55,7 @@
     
 </script>
 
-<div class="projects" id="scroll-projects">
+<div class="projects" id="scroll-testimonials">
     <span class="projects-title">Proyectos con los que me formé</span>
     <div class="projects-card">
         <a class="shadow" target="_blank" href="https://smiledu.com">Colaboré en Smiledu</a>

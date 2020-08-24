@@ -23,7 +23,6 @@
 
 <script>
     import Quote from './Quote.svelte';
-import Modal from '../Modal/Modal.svelte';
 
     let testimonio1 = {
         name : 'Marco Flores',

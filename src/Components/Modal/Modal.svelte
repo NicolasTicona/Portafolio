@@ -68,7 +68,7 @@
 
 <script>
 
-    import {showModal} from '../../Store/store.js';
+    import {showModal, planModal} from '../../Store/store.js';
     import {onMount} from 'svelte'
     import {fade} from 'svelte/transition';
 
@@ -100,7 +100,7 @@
 
         showPhoneError = false;
         if(name.trim().length > 0 && phone.trim().length > 0){
-            contact_info = `https://api.whatsapp.com/send?phone=51902376118&text=Hola!%20Soy%20${name}%20me%20gustar%C3%ADa%20hablar%20contigo%`
+            contact_info = `https://api.whatsapp.com/send?phone=51902376118&text=%20Plan%20${$planModal}%20-Hola!%20Soy%20${name}%20me%20gustar%C3%ADa%20hablar%20contigo%`
             contact_info += `20este%20es%20mi%20numero%20${anexo}${phone}`;
             if(email) contact_info += `%20y%20este%20es%20mi%20correo%20${email}`;
         }
@@ -120,7 +120,8 @@
             <button on:click={handleClose}>X</button>
         </div>
 
-        <p class="modal-info">Este mensaje será enviado a mi Whatssap Personal. La respuesta sera en un lapso máximo de 2 horas</p>
+        <h4>Elegiste Plan {$planModal} </h4>
+        <p class="modal-info">Este mensaje será enviado a mi Whatssap Personal. La respuesta sera en un lapso máximo de 2 horas. O puedes llamarme a este número +51 902376118</p>
 
         <form>
             <input bind:value={name} type="text" placeholder="Tu nombre">

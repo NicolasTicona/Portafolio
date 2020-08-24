@@ -105,7 +105,7 @@
                     <div class="header-button">
                         <BotonAction 
                             up={false} 
-                            scroll={'#scroll-projects'}
+                            scroll={'#scroll-testimonials'}
                             text={'Testimonios'}/>
                     </div>
                     <div class="header-button">

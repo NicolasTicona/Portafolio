@@ -56,30 +56,29 @@
         title: 'Básico',
         cost : 229,
         description: [
-            'Portafolio Básico', 'Página web informativa',
-            'Presencia web para Mypes', 'Tienda online con Shopify'
+            'El plan perfecto para empezar y tener presencia en internet',
+            '¿Qué tal si creamos tu portafolio de proyectos, la página web de tu negocio, o una tienda online para empezar a vender?'
         ],
         boton: 'Lo quiero!'
     };
 
     let proPlan = {
-        title: 'Profesional',
+        title: 'Emprendedor',
         cost: 529,
         description: [
-            'Portafolio Profesional', 
-            'Landing Page',
-            'Sitio web profesional',
-            'Construcción de Marca para presencia web'
+            '¡No puedes quedarte atrás!',
+            'Es hora de crear tu portafolio profesional, el sitio web perfecto para tu empresa o la construcción de una marca para presencia web.' 
         ],
         boton: 'Empecemos!'
     };
-
+    
     let appPlan = {
-        title: 'Plataforma Web',
+        title: 'Profesional',
         cost: 1299,
         description: [
-            'Aplicación / Plataforma Web',
-            'Blog Administrable'
+            '¿Tienes una idea increíble?',
+            '¿Necesitas integrar muchas funcionalidades dentro de una plataforma?',
+            'Despeguemos ese proyecto al siguiente nivel'
         ],
         boton: 'Hablemos!'
     };

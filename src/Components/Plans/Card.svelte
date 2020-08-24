@@ -3,11 +3,11 @@
 .card{
     width: 100%;
     border-radius: 20px;
-
     min-height: 50vh;
     display: flex;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, .8);
+    background-color: #f3f3f3;
+    /* background: linear-gradient(to bottom, #ffffff 1%,#fafafa 100%,#f3f3f3 100%); */
     justify-content: space-between;
     transition: all .3s ease;
 }
@@ -25,15 +25,23 @@
 }
 
 .card-list{
-    margin-left: 20px;
-    text-align: left;
+    padding: 0 20px 8px 20px;
 }
+
+.card-list p{
+    font-size: 14px;
+}
+
 hr{
     border: 3px solid var(--primary);
     margin: 10px auto 20px auto;
 }
 
-@media screen and (max-width:768px){
+ @media screen and (max-width:768px){ 
+    /* .card-list{
+        padding: 0;
+    } */ 
+    
     h3{
         font-size: 30px !important;
     }
@@ -74,11 +82,11 @@ hr{
         </div>
     
     
-        <ul class="card-list">
+        <div class="card-list">
             {#each description as desc}
-                <li>{desc}</li>
+                <p>{desc}</p>
             {/each}
-        </ul>
+        </div>
     </div>
 
     <div class="card-button-action">

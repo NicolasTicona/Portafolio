@@ -1,5 +1,4 @@
 <style>
-
     header{
         height: 100vh;
         width: 100%;
@@ -19,6 +18,17 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        flex-wrap: wrap;
+        padding: 40px;
+    }
+
+    .header-content{
+        width: 60%;
+    }
+
+    .header-hook{
+        width: 40%;
+        text-align: center;
     }
 
     .header-title{
@@ -63,6 +73,11 @@
             text-align: center;
         }
 
+        .header-hook{
+            display: none;
+            /* width: 100%; */
+        }
+
         .header-networks{
             padding: 15px;
         }
@@ -79,11 +94,11 @@
 
 <header class="header">
     <div class="header-info shape center-flex">
-        <div class="wrapper header-content-center">
+        <div class="header-content-center">
             <div class="header-content">
                 <div class="header-title">
-                    <h1 >Hola, Soy Nicolas</h1>
-                    <h3 >Hagamos tu proyecto realidad!</h3>
+                    <h1>Hola! Soy Nicolas</h1>
+                    <h3>Desarrollador Web</h3>
                 </div>
     
                 <div class="header-action-buttons">
@@ -91,7 +106,7 @@
                         <BotonAction 
                             up={false} 
                             scroll={'#scroll-projects'}
-                            text={'Proyectos'}/>
+                            text={'Testimonios'}/>
                     </div>
                     <div class="header-button">
                         <BotonAction 
@@ -100,6 +115,11 @@
                             text={'Trabajemos juntos'}/>
                     </div>
                 </div>
+            </div>
+
+            <div class="header-hook">
+                <h3>El mundo esta cambiando, necesitas aliados fuertes, soluciones rápidas y escalables.</h3>
+                <h3>Te ayudo a dar el siguiente paso.</h3>
             </div>
 
         </div>

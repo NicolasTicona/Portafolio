@@ -1,6 +1,7 @@
 <style>
 
     .footer{
+        background-color: var(--secondary);
         background-image: url('/assets/footer-pattern.png');
     }
 

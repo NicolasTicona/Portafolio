@@ -106,6 +106,7 @@
 	import Header from './Components/Header/Header.svelte';
 	import About from './Components/About/About.svelte';
 	import Plans from './Components/Plans/Plans.svelte';
+	import Comunity from './Components/Comunity/Comunity.svelte';
 	import Footer from './Components/Footer/Footer.svelte';	
 	import Modal from './Components/Modal/Modal.svelte';
 
@@ -121,7 +122,9 @@
 
 	<About />
 
+	<Comunity />
 	<Plans />
+
 
 	<Footer />
 </div>

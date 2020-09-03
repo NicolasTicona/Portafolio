@@ -42,8 +42,8 @@
 
     let testimonio3 = {
         name : 'Gerardo Portilla',
-        rol  : 'Director del Centro David',
-        desc : 'Estoy conforme con el trabajo realizado. Nos ayudó mucho su rapidez para atender nuestras necesidades.',
+        rol  : 'Director del Centro de Salud Mental David',
+        desc : 'Un trabajo profesional de alta calidad, con alta funcionalidad y cumple al pie de la letra lo estipulado en su proforma.',
         img  : '/assets/gerardo-portilla.jpg'
     }
 

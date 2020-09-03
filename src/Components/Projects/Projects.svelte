@@ -61,6 +61,9 @@
         <a class="shadow" target="_blank" href="https://smiledu.com">Colaboré en Smiledu</a>
     </div>
     <div class="projects-card">
+        <a class="shadow" target="_blank" href="https://centrodavid.com">Desarrollé centrodavid.com</a>
+    </div>
+    <div class="projects-card">
         <a class="shadow" target="_blank" href="https://nicolasticona.github.io/Arkei">Arkei Chat</a>
     </div>
     <div class="projects-card">
@@ -73,5 +76,7 @@
         <a class="shadow" target="_blank" href=".">Clon Spotify</a>
     </div> -->
 
-    <a class="projects-link-github" target="_blank" href="https://github.com/NicolasTicona?tab=repositories">Más proyectos en <span>Github</span></a>
+    <a class="projects-link-github" target="_blank" href="https://github.com/NicolasTicona?tab=repositories">
+        Puedes escribirme a <b>tvaldivia.nicolas@gmail.com</b>
+    </a>
 </div>

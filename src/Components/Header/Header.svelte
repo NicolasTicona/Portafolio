@@ -4,6 +4,7 @@
         width: 100%;
         position: relative;
         display: flex;
+        background-color: var(--secondary);
         background-image: url('/assets/header-bg.svg');
         background-size: cover;
     }
@@ -64,7 +65,6 @@
     @media screen and (max-width:768px){
         header{
             width: 100vw;
-            background-color: var(--secondary);
             background-image: none;
         }
 

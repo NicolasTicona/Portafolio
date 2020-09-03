@@ -59,7 +59,7 @@
     <div class="comunity-youtube">
         <img src="/assets/youtube.JPG" class="shadow" alt="">
         <h2>
-            ¡Únete a mi <a href="youhttps://www.youtube.com/channel/UC_3kEX4q9FNesZKuPKBMepw" target="_blank">comunidad</a> 
-            y aprende conmigo!</h2>
+            ¡Únete a nuetra <a href="https://www.youtube.com/channel/UC_3kEX4q9FNesZKuPKBMepw" target="_blank">comunidad</a> 
+            y aprendamos juntos!</h2>
     </div>
 </div>

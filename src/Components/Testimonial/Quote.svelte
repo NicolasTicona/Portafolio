@@ -7,7 +7,8 @@
         justify-content: flex-start;
     }
 
-    .quote-image .image{
+    .quote-image a{ display: inline-block;}
+    .quote-image img{
         display: inline-block;
         width: 50px;
         height: 50px;
@@ -18,6 +19,10 @@
     .quote-description{
         margin-left: 8px;
         color: #fff;
+    }
+
+    .quote-description h5{
+        display: inline-block;
     }
 
     .quote-description p{
@@ -31,9 +36,18 @@
         padding: 10px;
         font-weight: bold;
     }
+
+    .quote-link{
+        display: inline-block;
+    }
+
+    .quote-link img{
+        width: 10px;
+        vertical-align: middle;
+    }
     
     .quote-description span{
-        display: block;
+        display: inline-block;
         font-weight: bold;
         font-size: 10px;
         margin-top: 6px;
@@ -47,16 +61,31 @@
     export let rol;
     export let desc;
     export let img;
+    export let link;
 
 </script>
 
 <div class="quote">
     <div class="quote-image">
-        <img src={img} alt="Imágen" class="image">
+
+        {#if link}
+            <a href={link} target="_blank">
+                <img src={img} alt="Imágen">
+            </a>
+        {:else}
+            <img src={img} alt="Imágen">
+        {/if}
+
     </div>
 
     <div class="quote-description">
         <h5>{name}</h5>
+        {#if link}
+            <a class="quote-link" href={link} target="_blank">
+                <img src="/assets/networks/linkedin.png" alt="Linkedin">
+            </a>
+        {/if}
+        <br>
         <span>{rol}</span>
         <p class="shadow">{desc}</p>
     </div>

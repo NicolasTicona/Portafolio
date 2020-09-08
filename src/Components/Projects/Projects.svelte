@@ -30,7 +30,7 @@
         margin-left: -100px;
     }
 
-    .projects-link-github{
+    .project-link-gmail{
         color: #fff;
         margin-top: 20px;
         text-decoration: none;
@@ -76,7 +76,7 @@
         <a class="shadow" target="_blank" href=".">Clon Spotify</a>
     </div> -->
 
-    <a class="projects-link-github" target="_blank" href="https://github.com/NicolasTicona?tab=repositories">
-        Puedes escribirme a <b>tvaldivia.nicolas@gmail.com</b>
-    </a>
+    <span class="project-link-gmail">
+        ¿Te interesa trabajar conmigo? Escríbeme <b>tvaldivia.nicolas@gmail.com</b> <br>
+    </span>
 </div>

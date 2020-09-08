@@ -25,8 +25,8 @@
 
     .footer-credits{
         display: block;
-        text-align: right;
-        padding: 40px;
+        text-align: center;
+        padding: 20px;
     }
 
     @media screen and (max-width:768px){

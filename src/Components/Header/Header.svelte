@@ -63,6 +63,10 @@
     }
     
     @media screen and (max-width:768px){
+
+        .header-networks{
+            position: absolute;
+        }
         header{
             width: 100vw;
             background-image: none;

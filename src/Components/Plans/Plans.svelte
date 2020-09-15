@@ -12,9 +12,9 @@
         margin-left: 20px;
     }
 
-    span{
-        font-size: 12px;
-    }
+    /* .plans-info-top span{
+        font-size: 20px;
+    } */
 
     .plans-cards{
         /* background-color: #ccc; */

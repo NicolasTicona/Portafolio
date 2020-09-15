@@ -17,6 +17,9 @@
 
 
 @media screen and (max-width:768px){
+    .networks{
+        width: 120px;
+    }
 }
 
 </style>

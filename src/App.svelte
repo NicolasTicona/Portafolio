@@ -87,11 +87,11 @@
 	}
 
 	:global(p){
-		font-size: 14px !important;
+		font-size: 15px !important;
 	}
 
 	:global(span){
-		font-size: 12px !important;
+		font-size: 13px !important;
 	}
 }
 

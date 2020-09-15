@@ -33,8 +33,9 @@
     .project-link-gmail{
         color: #fff;
         margin-top: 20px;
+        max-width: 90%;
+        margin: auto;
         text-decoration: none;
-        font-size: 13px;
     }
 
     @media screen and (max-width:768px){

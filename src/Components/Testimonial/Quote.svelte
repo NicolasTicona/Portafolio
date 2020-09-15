@@ -49,7 +49,6 @@
     .quote-description span{
         display: inline-block;
         font-weight: bold;
-        font-size: 10px;
         margin-top: 6px;
     }
 

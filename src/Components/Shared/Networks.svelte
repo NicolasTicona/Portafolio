@@ -11,7 +11,8 @@
     display: inline-block;
 }
 .networks-social-img{
-    width: 20px;
+    width: 40px;
+    padding: 10px;
     vertical-align: top;
 }
 

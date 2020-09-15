@@ -29,6 +29,10 @@
         padding: 20px;
     }
 
+    .footer-credits a{
+        color: #fff;
+    }
+
     @media screen and (max-width:768px){
         .footer-section{
             width: 100%;

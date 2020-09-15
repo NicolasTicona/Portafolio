@@ -2,7 +2,7 @@
 
 /* General Styles */
 :global(*){
-	box-sizing: border-box;
+	box-sizing: border-box !important;
 	margin: 0;
 	padding: 0;
 }
@@ -91,6 +91,7 @@
 	}
 
 	:global(span){
+        display: inline-block;
 		font-size: 13px !important;
 	}
 }

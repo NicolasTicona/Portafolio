@@ -32,9 +32,8 @@
 
     .project-link-gmail{
         color: #fff;
-        margin-top: 20px;
+        margin: 30px auto 0 auto;
         max-width: 90%;
-        margin: auto;
         text-decoration: none;
     }
 
@@ -42,7 +41,16 @@
 
         .projects{
             margin-top: 10px;
+            overflow: hidden;
         }
+
+        .projects-card:nth-child(odd){
+            margin-left: 0px;
+        }
+        .projects-card:nth-child(even){
+            margin-left: 0px;
+        }
+
         .projects-card a{
             font-size: 16px;
             padding: 15px 35px;
